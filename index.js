@@ -39,13 +39,22 @@ console.log(items[1]);
 
 // FOR making 1 item bold and change its backgroundcolor
 
-items[1].style.fontWeight = 'bold';
-items[1].style.backgroundColor = 'green';
+// items[1].style.fontWeight = 'bold';
+// items[1].style.backgroundColor = 'green';
 
 // QUES No-3  ADD ITEM bold and change the font color to greeen
 // FOR making all items bold and change their backgroundcolor
 
+// for(var i=0;i<items.length;i++){
+//     items[i].style.backgroundColor = 'green';
+//     items[i].style.fontWeight = 'bold';
+// }
+
+// QUES NO 4 Write the code as per the youtuber does
+// Make the 3 rd element in the list have green background color
+// Make all the elements in the list have bold color font
+
+items[2].style.backgroundColor='green';
 for(var i=0;i<items.length;i++){
-    items[i].style.backgroundColor = 'green';
     items[i].style.fontWeight = 'bold';
 }
